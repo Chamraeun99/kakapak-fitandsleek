@@ -41,6 +41,7 @@ return [
         'X-Device-Name',
         'X-Device-Browser',
         'X-Device-OS',
+        'Accept',
     ],
 
     'exposed_headers' => ['XSRF-TOKEN', 'X-CSRF-TOKEN'],
